@@ -1,0 +1,32 @@
+{
+  "name": "use-page-offset-example",
+  "homepage": "https://garrettbland.github.io/use-page-offset",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "file:../node_modules/react",
+    "react-dom": "^16.9.0",
+    "use-page-offset": "file:.."
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@craco/craco": "^6.1.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "prismjs": "^1.23.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
+  }
+}
