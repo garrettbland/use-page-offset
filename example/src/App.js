@@ -29,7 +29,7 @@ const App = () => {
         </div>
       </div>
       <div className="max-w-xl mx-auto">
-        <div className="prose prose-lg py-14">
+        <div className="prose prose-lg prose-blue py-14">
           <h2>
             Use Page Offset is a react hook for tracking the Y offset of a
             browser window
@@ -45,7 +45,8 @@ const App = () => {
           </p>
           <h3>Usage</h3>
           <pre className="language-javascript">
-            <code>{`import { usePageOffset } from "use-page-offset";
+            <code>{`import React from "react";
+import { usePageOffset } from "use-page-offset";
 
 const App = () => {
   const offset = usePageOffset()
@@ -60,16 +61,17 @@ export default App`}</code>
           <h3>Parallax Demo</h3>
           <p>
             This demo below is a basic example of creating a parallax background
-            image. Its what I'm using on this site at the top. You can see the
-            background image moving at a slower speed to achieve that effect.
+            image using <a href="https://tailwindcss.com/">Tailwind CSS</a>. Its
+            what I'm using on this site at the top. You can see the background
+            image moving at a slower speed to achieve that effect.
           </p>
           <pre className="language-javascript">
             <code>
-              {`import { usePageOffset } from "use-page-offset";
+              {`import { usePageOffset } from "use-page-offset"
 
 const App = () => {
   const offset = usePageOffset()
-  const parallaxSpeed = 3;
+  const parallaxSpeed = 3
   return (
     <div className="relative py-64 bg-red-500 overflow-hidden">
     <div
@@ -96,7 +98,8 @@ export default App`}
           <h3>How does this work?</h3>
           <p>
             Use Page Offset is a super simple react hook that tracks the{" "}
-            <code>pageYOffset</code> of the browser window.
+            <code>pageYOffset</code> of the browser window so you can easily
+            build in effects like parallax & scroll effects.
           </p>
           <p>
             View the repo at{" "}
