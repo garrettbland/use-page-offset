@@ -34,7 +34,9 @@ const App = () => {
                         Use Page Offset is a react hook for tracking the Y offset of a browser
                         window
                     </h2>
-                    <p className="border-l-4 border-gray-300 px-4">Current page Y offset (px)</p>
+                    <p className="border-l-4 border-gray-300 px-4">
+                        Current page Y offset ({offset}px)
+                    </p>
                     <h3>Installation</h3>
                     <p>
                         <pre>
