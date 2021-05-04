@@ -1,7 +1,7 @@
 {
     "name": "use-page-offset",
-    "version": "1.0.1",
-    "description": "A starter for creating a new React hook",
+    "version": "1.0.2",
+    "description": "React hook for tracking browser window offset",
     "author": {
         "name": "Garrett Bland",
         "email": "gmorganbland@gmail.com",
