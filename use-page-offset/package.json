@@ -1,6 +1,6 @@
 {
     "name": "use-page-offset",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "React hook for tracking browser window offset",
     "author": {
         "name": "Garrett Bland",
@@ -18,7 +18,8 @@
         "bump": "npm version",
         "example": "cd example && yarn install && yarn package",
         "prepublishOnly": "yarn build",
-        "watch": "nodemon --watch src --exec \"yarn build\""
+        "watch": "nodemon --watch src --exec \"yarn build\"",
+        "publish": "npm publish"
     },
     "license": "MIT",
     "devDependencies": {
